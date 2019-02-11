@@ -13,7 +13,7 @@ jobs:
             env: lint=1
         -
             php: "7.3"
-            env: coverage=1
+            env: lint=1 coverage=1
         -
             php: "7.3"
             env: deps=low
